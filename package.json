@@ -1,0 +1,23 @@
+{
+  "name": "gitbook-plugin-link-targets",
+  "version": "0.0.1",
+  "description": "Adds targets to links containing the keys set in config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Busbud",
+  "license": "MIT",
+  "engines": {
+    "gitbook": "*"
+  },
+  "gitbook": {
+    "properties": {
+      "targets": {
+        "type": "object",
+        "default": {},
+        "title": "Targets to add to matching urls containing the keys of the config"
+      }
+    }
+  }
+}
